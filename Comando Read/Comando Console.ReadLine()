@@ -1,0 +1,20 @@
+//O comando Console.ReadLine() retorna uma string. Não pode obter informações de outro tipo de dados, como int mais podemos converter se preciso
+
+Exemplo:
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine("Digite o nome de usuário:");  //Digite seu nome de usuário e pressione enter
+
+      string nomeDeUsuario = Console.ReadLine();  //Cria uma variável string que obtem a entrada do usuário do teclado e armazene-a na variável
+
+      Console.WriteLine("O nome de usuário é: " + nomeDeUsuario);  //Pega o valor da variável (nomeDeUsuario), e exibe na tela
+    }
+  }
+}

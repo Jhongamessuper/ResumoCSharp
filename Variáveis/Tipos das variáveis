@@ -1,0 +1,41 @@
+//Primeiramente em uma variável existem os TIPOS que são muito importante pois isso pode dar um ERRO na hora de executar um comando
+
+Variável tipo int // Ela pode armazenar NÚMEROS INTEIROS SEM DECIMAIS como 1, 2, 3 -1, -2, -3 É DE 4 BYTES E SUPORTA -2,147,483,648 to 2,147,483,647
+Variável tipo long // Ela é a mesma coisa do int só que ela SUPORTA UM VALOR MUITO MAIOR QUE INT É DE 8 BYTES E SUPORTA -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+Variável tipo float // Ela pode armazenar números com PONTO FLUTUANTE, DECIMAIS como 19,99 -19,99 É DE 4 BYTES E SUPORTA 6 A 7 DÍGITOS DECIMAIS
+Variável tipo double // Ela é a mesma coisa do int só que ela SUPORTA UM VALOR MUITO MAIOR QUE FLOAT É DE 8 BYTES E SUPORTA 15 DÍGITOS DECIMAIS
+Variável tipo char // Ele é usado PARA ARMAZENAR CARÁCTERES ÚNICOS, COMO 'A' OU 'B'. ELES  SÃO CERCADOS POR ASPAS SIMPLES É DE 2 BYTES
+Variável tipo string // Ela é usada PARA ARMAZENAR TEXTOS COMO "Olá como vocês estão". ELES SÃO CERCADOS POR ASPAS DUPLAS É DE 2 BYTES
+Variável tipo bool // Ela é usada para armazenar valores com dois estados: verdadeiro ou falso (true or false) É DE 1 BIT
+
+//Essas são as variáveis mais usadas principalmente por iniciantes na programação, agora que temos o tipo vamos ver como fazer o comando das variáveis
+
+//Primeiramente vamos colocar o tipo de uma variável como string (LEMBRANDO QUE OS TIPOS DE UMA VARIÁVEL SEMPRE SÃO ESCRITAS EM MINÚSCULA)
+
+Exemplo:
+
+string
+
+//Depois que escrevemos o tipo da variável podemos adicionar uma variável com qualquer nome (PARA MELHOR ENTENDIMENTO DO CÓDIGO QUANDO VAMOS ESCREVER O NOME DE UMA VARIÁVEL OPTAMOS POR ESCREVER PRIMEIRO MINÚSCULA E NÃO USAMOS ESPAÇO NEM ACENTUAÇÃO PARA NÃO DAR ERRO, OU USAMOS _ PARA O ESPAÇO OU ESCREVEMOS ASSIM "bancoDasPessoas")
+
+Exemplo:
+
+string pessoa
+
+//Agora essa variável precisa receber algo como ela é do tipo string ela irá receber um texto, para fazer uma variável receber algo usamos = então uma VARIÁVEL PESSOA DO TIPO STRING VAI RECEBER UM TEXTO(LEMBRANDO QUE USAMOS "" POR SER UMA STRING)
+
+Exemplo:
+
+string pessoa = "Olá como você está"; // Todo código precisa usar ; no final
+
+//Outra coisa é que as variáveis long, float e double PRECISA NO FINAL DE CADA CÓDIGO ANTES DO ; É RECEBER A PRIMEIRA LETRA DA VARIÁVEL
+
+Exemplo:
+
+long numero = 12L;
+float numero = 30.5F;
+double numero = 21.42D;
+
+
+
+

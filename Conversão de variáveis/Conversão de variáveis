@@ -1,0 +1,73 @@
+//A conversão de tipo é quando você atribui um valor de um tipo de dados a outro tipo.Em C#, existem dois tipos de conversão:
+
+Casting implícito (automaticamente) - convertendo um tipo menor em um tamanho de tipo maior
+char-> int-> long-> float->double
+
+Casting explícito (manualmente) - convertendo um tipo maior em um tipo de tamanho menor
+double-> float-> long-> int->char
+
+//A conversão implícita é feita automaticamente ao passar um tipo de tamanho menor para um tipo de tamanho maior
+
+Exemplo:
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myInt = 9;
+      double myDouble = myInt;  // Fundição automática: int para double
+
+      Console.WriteLine(myInt);
+      Console.WriteLine(myDouble);
+    }
+  }
+}
+
+//A conversão explícita deve ser feita manualmente, colocando o tipo entre parênteses na frente do valor
+
+Exemplo:
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      double myDouble = 9.78;
+      int myInt = (int) myDouble;  // Fundição manual: duplo para int
+
+      Console.WriteLine(myDouble);
+      Console.WriteLine(myInt);
+    }
+  }
+}
+
+//Também é possível converter tipos de dados explicitamente usando métodos internos, como Convert.ToBoolean, Convert.ToDouble, Convert.ToString, Convert.ToInt32( int) e Convert.ToInt64( long)
+
+Exemplo:
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myInt = 10;
+      double myDouble = 5.25;
+      bool myBool = true;
+
+      Console.WriteLine(Convert.ToString(myInt));  // Converte int em string
+      Console.WriteLine(Convert.ToDouble(myInt));  // Converte int em double
+      Console.WriteLine(Convert.ToInt32(myDouble));  // Converte double em int
+      Console.WriteLine(Convert.ToString(myBool));  // Converte bool em string
+      }
+  }
+}

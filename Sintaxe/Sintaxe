@@ -1,0 +1,66 @@
+//Using System significa que podemos usar classes do Systemnamespace.
+
+Exemplo:
+
+using system;
+
+//Namespace é usada para organizar seu código e é um contêiner para classes e outros namespaces.
+
+Exemplo:
+
+namespace Programa
+
+//As chaves {}marcam o início e o fim de um bloco de código.
+
+Exemplo:
+
+using system;
+
+namespace
+{
+    
+}
+//Class é um container para dados e métodos, que traz funcionalidade ao seu programa. Cada linha de código executada em C# deve estar dentro de uma classe.
+
+Exemplo:
+
+using system;
+
+namespace
+{
+   class Programa
+   {
+
+//Outra coisa que sempre aparece em um programa C#, é o Main. Qualquer código dentro de suas chaves {}será executado.
+
+Exemplo:
+
+using system;
+
+namespace
+{
+ class Programa
+  {
+    static voild Main(string[]args)
+    {
+
+//Console é uma classe do Systemnamespace, que possui um WriteLine() que é usado para fazer que execute um comando como um texto. Em nosso exemplo, ele produzirá "Olá como posso ajudar".
+
+Exemplo:
+
+using system;
+
+namespace
+{
+ class Programa
+  {
+    static voild Main(string[]args)
+    {
+     Console.WriteLine("Olá como eu posso ajudar"); //cada instrução C# termina com um ponto e vírgula ;.
+    }
+  }
+}
+      
+//Se você omitir a using Systemlinha, terá que escrever System.Console.WriteLine().
+
+//Nota: C# diferencia maiúsculas de minúsculas: "MyClass" e "myclass" têm significados diferentes.

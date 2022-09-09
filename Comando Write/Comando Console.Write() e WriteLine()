@@ -1,0 +1,26 @@
+//Para executar um comando na tela usando um console podemos usar o comando WriteLine() e podemos adicionar quantos quisermos
+
+Exemplo:
+
+Console.WriteLine("Olá como vocês estão");
+Console.WriteLine("Estava aqui olhando o céu");
+Console.WriteLine("Estou casado vou embora até mais");
+
+//Podemos usar esse comando para fazer calculos também
+
+Exemplo:
+
+Console.WriteLine(3+6);
+Console.WriteLine(42-33);
+Console.WriteLine(66*23);
+Console.WriteLine(623/67);
+
+//Também existe um write() só que ele não pula uma linha quando executado então se quiser escrever alguma coisa na mesma linha é melhor deixar um espaço no final
+
+Exemplo:
+
+Console.Write("Hoje estou cansado ");
+Console.Write("Não vou estudar hoje ");
+Console.Write(31/23 );
+Console.Write("Não quero resolver essa conta" 33 * 23 );
+
