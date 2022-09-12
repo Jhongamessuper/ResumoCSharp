@@ -1,12 +1,3 @@
-//Uma variável boleana é uma que recebe valor true (verdadeiro) ou false (falso) e é declarado bool é mais usado para testes condicionais
-
-Exemplo:
-
-bool realidade = true;
-bool fantasia = false;
-Console.WriteLine(realidade);   //A variável realidade vai receber verdadeiro é vai aparecer na tela
-Console.WriteLine(fantasia);   //A variável fantasia vai receber falso e vai aparecer na tela
-
 //Também pode usar um operador de comparação, como maior que > para descobrir se uma expressão ou uma variável é verdadeira
 
 Exemplo:

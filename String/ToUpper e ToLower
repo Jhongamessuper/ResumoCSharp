@@ -1,0 +1,17 @@
+//Existem muitos métodos de string, como ToUpper()e ToLower(), que mostra uma cópia da string convertida para maiúscula ou minúscula:
+
+Exemplo:
+
+//Variável txt do tipo string vai receber palavras e vai mostrar na tela maiúcula(ToUpper) e minúscula(ToLower)
+string txt = "Rpg é muito bom";
+Console.WriteLine(txt.ToUpper());
+Console.WriteLine(txt.ToLower());
+string txt = "Não gosto disso";
+Console.WriteLine(txt.ToUpper());  
+Console.WriteLine(txt.ToLower());
+string txt = "Estudo";
+Console.WriteLine(txt.ToUpper());  
+Console.WriteLine(txt.ToLower());
+string txt = "Olha para cima";
+Console.WriteLine(txt.ToUpper());  
+Console.WriteLine(txt.ToLower());

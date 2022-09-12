@@ -1,0 +1,23 @@
+//Também é possível converter tipos de dados explicitamente usando métodos internos, como Convert.ToBoolean, Convert.ToDouble, Convert.ToString, Convert.ToInt32( int) e Convert.ToInt64( long)
+
+Exemplo:
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myInt = 10;
+      double myDouble = 5.25;
+      bool myBool = true;
+
+      Console.WriteLine(Convert.ToString(myInt));  // Converte int em string
+      Console.WriteLine(Convert.ToDouble(myInt));  // Converte int em double
+      Console.WriteLine(Convert.ToInt32(myDouble));  // Converte double em int
+      Console.WriteLine(Convert.ToString(myBool));  // Converte bool em string
+      }
+  }
+}

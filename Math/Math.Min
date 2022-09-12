@@ -1,0 +1,8 @@
+//Math.Min pode ser usado para encontrar o menor valor o oposto do Math.Max
+
+Exemplo:
+
+Console.WriteLine(Math.Max(23, 10));  //Ele vai ver qual o menor valor 23 ou 10 e vai mostrar na tela
+Console.WriteLine(Math.Max(34, 3));  //Ele vai ver qual o menor valor 34 ou 3 e vai mostrar na tela
+Console.WriteLine(Math.Max(41, 43));  //Ele vai ver qual o menor valor 41 ou 43 e vai mostrar na tela
+Console.WriteLine(Math.Max(98, 53));  //Ele vai ver qual o menor valor 98 ou 53 e vai mostrar na tela

@@ -1,0 +1,17 @@
+//O comando default é opcional e especifica algum código a ser executado se não houver correspondência entre maiúsculas e minúsculas
+
+Exemplo:
+
+int dia = 4;
+switch (dia) 
+{
+  case 6:
+    Console.WriteLine("Sábado");
+    break;
+  case 7:
+    Console.WriteLine("Domingo");
+    break;
+  default:
+    Console.WriteLine("Fim de semana");
+    break;
+}

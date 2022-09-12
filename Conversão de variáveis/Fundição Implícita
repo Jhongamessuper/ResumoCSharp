@@ -1,0 +1,20 @@
+//A conversão implícita é feita automaticamente ao passar um tipo de tamanho menor para um tipo de tamanho maior
+
+Exemplo:
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myInt = 9;
+      double myDouble = myInt;  // Fundição automática: int para double
+
+      Console.WriteLine(myInt);
+      Console.WriteLine(myDouble);
+    }
+  }
+}

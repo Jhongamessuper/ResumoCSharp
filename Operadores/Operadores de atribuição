@@ -1,0 +1,24 @@
+//Os operadores de atribuição são usados para atribuir valores a uma variável e para fazer isso usamos = e para adicionar mais um valor a uma variável usamos um operador antes do = como -= +=
+
+Exemplo:
+
+int n1 = 10;  //Uma variável do tipo inteiro chamada n1 (coloquei n1 para não ficar pondo sempre o nome numero) vai receber o valor 10
+int n1 += 10;  //A mesma variável do tipo inteiro vai receber mais um valor só que não irá substituir e sim somar mais 10
+int n1 -= 2;  //A mesma variável do tipo inteiro vai ter um valor subtraído que será 2
+string nome = "João Carlos";  //A variável nome do tipo string vai receber João Carlos
+float n1 = 19.99F;   //A variável n1 do tipo float vai receber 19.99
+char letra = 'A';  //A variável letra do tipo char vair receber A
+
+Lista de todos os operadores de atribuição:
+
+=	x = 5	x = 5  //Recebe um valor	
++=	x += 3	x = x + 3  //Soma mais um valor	
+-=	x -= 3	x = x - 3	//Subtrai o valor
+*=	x *= 3	x = x * 3	//Multiplica o valor
+/=	x /= 3	x = x / 3	//Divide o valor
+%=	x %= 3	x = x % 3	//Resto da divisão
+&=	x &= 3	x = x & 3	
+|=	x |= 3	x = x | 3	
+^=	x ^= 3	x = x ^ 3	
+>>=	x >>= 3	x = x >> 3	
+<<=	x <<= 3	x = x << 3

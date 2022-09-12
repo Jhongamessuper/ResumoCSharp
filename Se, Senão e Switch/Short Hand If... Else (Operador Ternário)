@@ -1,0 +1,8 @@
+//Há também uma abreviação do if else, que é conhecida como operador ternário porque consiste em três operações. Pode substituir várias linhas de código por uma única linha
+
+Exemplo:
+
+//Vai ver se tempo é menor que 18 se for vai mostrar Dia se não Noite
+int tempo = 20;
+string resultado = (tempo < 18) ? "Dia" : "Noite";
+Console.WriteLine(resultado);

@@ -1,0 +1,10 @@
+//Ele vai ver se tempo é menor que 18 se for vai aparecer Dia senão vai aparecer Noite
+int tempo = 20;
+if (tempo < 18) 
+{
+  Console.WriteLine("Dia");
+} 
+else 
+{
+  Console.WriteLine("Noite");
+}

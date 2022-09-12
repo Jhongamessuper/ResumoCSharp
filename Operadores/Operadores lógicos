@@ -1,0 +1,7 @@
+//Os operadores lógicos são usados ​​para determinar a lógica entre variáveis ​​ou valores
+
+Exemplo:
+
+&& 	É Lógico e Retorna verdadeiro se ambas as declarações forem verdadeiras x < 5 &&  x < 10	
+|| 	É Lógico ou Retorna verdadeiro se uma das declarações for verdadeira x < 5 || x < 4	
+!	É Lógico não Inverte o resultado, retorna falso se o resultado for verdadeiro !(x < 5 && x < 10)

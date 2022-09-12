@@ -1,0 +1,6 @@
+//Constantes são palavras-chaves que quando colocado em um código é para não conseguir mudar é somente leitura daquele comando tipo uma variável muito importante que se alguem mudar ou o própio programador do projeto sem querer pode dar um erro grave e até avhar o erro vai dar muita dor de cabeça
+
+Exemplo:
+
+const int meuNumero = 15;  //Declaramos uma variável meuNumero constante do tipo inteiro que vai receber o valor 15
+meuNumero= 20;  //Aqui estámos tentando mudar ela para o valor 20 e vai dar um erro porque variáveis constantes não podem ser mudadas

@@ -1,0 +1,31 @@
+//O switch mais detalhado é a expressão é lida uma vez se ouver uma correspondência quando comparado o bloco é executado e quando atinge a palavra chave break ele sai do switch isso simplifica para não ler códigos que não precisa e default é opcional para quando não houver correspondência entre maiúsculas e minúsculas
+
+Exemplo:
+
+switch (dia) 
+{
+  int dia = 4;
+switch (dia) 
+{
+  case 1:
+    Console.WriteLine("Segunda-Feira");
+    break;
+  case 2:
+    Console.WriteLine("Terça-Feira");
+    break;
+  case 3:
+    Console.WriteLine("Quarta-Feira");
+    break;
+  case 4:
+    Console.WriteLine("Quinta-Feira");
+    break;
+  case 5:
+    Console.WriteLine("Sexta-Feira");
+    break;
+  case 6:
+    Console.WriteLine("Sábado");
+    break;
+  case 7:
+    Console.WriteLine("Domingo");
+    break;
+}

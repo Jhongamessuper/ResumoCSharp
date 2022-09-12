@@ -1,0 +1,8 @@
+//Math.Abs ele retorna o valor absoluto positivo
+
+Exemplo:
+
+Console.WriteLine(Math.Abs(-4.7));  //Ele vai mostrar na tela o valor absoluto positivo de -4.7
+Console.WriteLine(Math.Abs(-43.89));  //Ele vai mostrar na tela o valor absoluto positivo de -43.89
+Console.WriteLine(Math.Abs(-33.54));  //Ele vai mostrar na tela o valor absoluto positivo de -33.54
+Console.WriteLine(Math.Abs(-98.72));  //Ele vai mostrar na tela o valor absoluto positivo de -98.72

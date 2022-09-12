@@ -1,0 +1,6 @@
+//Math.Sqrt ele retorna a raiz quadrada de um valor
+
+Console.WriteLine(Math.Sqrt(64)); //ELe vai mostrar na tela qual a raiz quadrada de 64
+Console.WriteLine(Math.Sqrt(49)); //ELe vai mostrar na tela qual a raiz quadrada de 49
+Console.WriteLine(Math.Sqrt(81)); //ELe vai mostrar na tela qual a raiz quadrada de 81
+Console.WriteLine(Math.Sqrt(169)); //ELe vai mostrar na tela qual a raiz quadrada de 169

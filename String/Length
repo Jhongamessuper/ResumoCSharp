@@ -1,0 +1,13 @@
+//Uma string  é um objeto, que contém propriedades e que podem realizar certas operações como encontrar o comprimento dela pelo comando Length
+
+Exemplo:
+
+//Variável txt do tipo string que está recebendo caracteres e está mostrando na tela o comprimento dos caracteres
+string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+Console.WriteLine("O comprimento da string txt é: " + txt.Length);
+string txt = "Oi meu amigo querido";
+Console.WriteLine("O comprimento da string txt é: " + txt.Length);
+string txt = "Eu vi você ontem";
+Console.WriteLine("O comprimento da string txt é: " + txt.Length);
+string txt = "Não quero";
+Console.WriteLine("O comprimento da string txt é: " + txt.Length);

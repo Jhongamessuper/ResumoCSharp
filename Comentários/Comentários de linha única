@@ -1,0 +1,6 @@
+//Os comentários são geralmente usados para explicar em um código o que cada comando faz ou para avisar de algo eles não influenciam os outros comandos o programa não lê eles e eles são usados com // esses tipos de comentários são usados para comentários mais simples
+
+Exemplo:
+
+//Esse programa está sendo escrito para futuramente caso eu tenha dúvida eu consiga olhar e de forma resumida consiga entender
+//CUIDADO ESSE PROGRAMA ESTÁ COM MUITOS BUGS CASO ENCONTRE ALGUM NOS AVISE POR EMAIL PARA TENTARMOS RESOLVER

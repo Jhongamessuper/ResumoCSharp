@@ -1,0 +1,8 @@
+//Math.Round ele arredonda um número para o número inteiro mais próximo
+
+Exemplo:
+
+Console.WriteLine(Math.Round(9.99));  //Ele vai arredondar o valor de 9.99 para um número mais próximo e vai aparecer na tela
+Console.WriteLine(Math.Round(12.80));  //Ele vai arredondar o valor de 12.80 para um número mais próximo e vai aparecer na tela
+Console.WriteLine(Math.Round(23.73));  //Ele vai arredondar o valor de 23.73 para um número mais próximo e vai aparecer na tela
+Console.WriteLine(Math.Round(43.65));  //Ele vai arredondar o valor de 43.65 para um número mais próximo e vai aparecer na tela

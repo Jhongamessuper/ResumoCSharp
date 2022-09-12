@@ -1,0 +1,41 @@
+//Caracteres especiais devem ser escritas entre aspas, o C# interpretará mal essa string e gerará um erro
+
+Exemplo:
+
+string txt = "Nós somos os chamados "Vikings" do norte";
+
+//A solução é usar o caractere de escape de barra invertida o caractere de escape de barra invertida ( \) transforma caracteres especiais em caracteres de string
+
+Exemplo:
+
+Caractere de escape Resultado Descrição
+        \'              '     Citação única
+        \               ""    Citação dupla
+        \\              \     Barra invertida
+
+//\" insere aspas duplas em uma string
+
+Exemplo:
+
+string txt = "Nós somos os chamados \"Vikings\" do norte";
+
+//\' insere uma aspa simples em uma string
+
+Exemplo:
+
+string txt = "Está tudo bem";
+
+//\\ insere uma única barra invertida em uma string
+
+Exemplo:
+
+string txt = "O caractere \\ é chamado de barra invertida.";
+
+//Outros caracteres de escape úteis são
+
+Exemplo:
+
+Código	Resultado
+  \n    Nova linha //Ele pula uma linha tipo WriteLine	
+  \t	Tab	
+  \b	Backspace

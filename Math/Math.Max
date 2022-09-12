@@ -1,0 +1,8 @@
+//A classe Math permite realizar tarefas matemáticas em números como Math.Max que pode ser usado para achar qual o maior valor de duas variáveis
+
+Exemplo:
+
+Console.WriteLine(Math.Max(5, 10));  //Ele vai ver qual o maior valor 5 ou 10 e vai mostrar na tela
+Console.WriteLine(Math.Max(20, 3));  //Ele vai ver qual o maior valor 20 ou 3 e vai mostrar na tela
+Console.WriteLine(Math.Max(43, 23));  //Ele vai ver qual o maior valor 43 ou 23 e vai mostrar na tela
+Console.WriteLine(Math.Max(121, 1023));  //Ele vai ver qual o maior valor 121 ou 1023 e vai mostrar na tela

@@ -1,0 +1,10 @@
+//Interpolação de strings substitui valores de variáveis ​​em espaços reservados em uma string
+
+Exemplo:
+
+
+string n = "Não";
+string s = "Sim";
+string pergunta = "Quer isso mesmo";
+string escolha = $"{s} Espera {n}";  //Ela vai pegar as variáveis s e n junto com a palavra espera e vai substituir 
+txtCaracter.Text = escolha;

@@ -1,0 +1,15 @@
+//O comando if(se) é para uma condição especificada for verdadeira, else(senão) é para quando for falsa, else if(senão se) é um teste se a primeira condição for falsa e a else verdadeira e o switch(trocar) é para muitos blocos alternativos de comandos a serem executados
+
+Exemplo:
+
+if (20 > 18)
+{
+  Console.WriteLine("20 é maior que 18");  //Ele vai ver se 20 é maior que 18 se for vai mostrar na tela que é maior
+}
+
+int x = 20;
+int y = 18;
+if (x > y) 
+{
+  Console.WriteLine("x é maior que y");  //Ele vai ver se x é maior que 18 se for vai mostrar na tela que é maior
+}

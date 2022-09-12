@@ -1,0 +1,36 @@
+//Também podemos consultar os caracteres pelo númeoro de índice entre colchetes [] 0 é o primeiro caracter e 1 o segundo e por diante
+
+Exemplo:
+
+//Irá pegar a variável nome e vai buscar o caracter no caso o primeiro 0
+string nome = "Eduardo Batista de Campo";
+Console.WriteLine(nome[0]);
+string nome = "Eduardo Batista de Campo";
+Console.WriteLine(nome[1]);
+string nome = "Eduardo Batista de Campo";
+Console.WriteLine(nome[2]);
+string nome = "Eduardo Batista de Campo";
+Console.WriteLine(nome[3]);
+
+//IndexOF pode encontrar a posição do caractere
+
+Exemplo:
+
+//Ele pega a variável nome e encontra o caracter específico na posição dela como 1, 2, 4 e 5
+string nome = "Olá pessoal";
+Console.WriteLine(nome.IndexOf("l"));
+string nome = "Olá pessoal";
+Console.WriteLine(nome.IndexOf("2"));
+string nome = "Olá pessoal";
+Console.WriteLine(nome.IndexOf("4"));
+string nome = "Olá pessoal";
+Console.WriteLine(nome.IndexOf("5"));
+
+//Também tem a substring que puxa os caracteres de uma string na posição específicada e exibe uma nova string é frequentemente usado com IndexOF para obter a posição
+
+Exemplo:
+
+string nome = "Marcos Alberto";
+int posicao = name.IndexOf("A");  //Ele vai pegar a posição A do nome e jogar na variável posicao
+string ultimoNome = name.Substring(posicao);  //Ele vai pegar o a variável posicao e vai ler começando da letra A e vai jogar na variável ultimoNome
+Console.WriteLine(ultimoNome);  //Ele vai mostrar na tela a variável ultimoNome

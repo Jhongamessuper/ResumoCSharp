@@ -14,7 +14,7 @@ while (i < 5)
 
 Exemplo:
 
-//
+//Ele irá pegar a variável i vai ler o bloco de código e vai contabilizar 1 a cada execução do comando começando do zero e vai repetir se a variável i for verdadeiro menor que 5 o loop vai continuar 
 int i = 0;
 do 
 {

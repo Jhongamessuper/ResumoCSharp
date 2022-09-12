@@ -1,0 +1,20 @@
+//A conversão explícita deve ser feita manualmente, colocando o tipo entre parênteses na frente do valor
+
+Exemplo:
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      double myDouble = 9.78;
+      int myInt = (int) myDouble;  // Fundição manual: duplo para int
+
+      Console.WriteLine(myDouble);
+      Console.WriteLine(myInt);
+    }
+  }
+}

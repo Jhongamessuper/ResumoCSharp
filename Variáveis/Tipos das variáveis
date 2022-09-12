@@ -35,7 +35,3 @@ Exemplo:
 long numero = 12L;
 float numero = 30.5F;
 double numero = 21.42D;
-
-
-
-

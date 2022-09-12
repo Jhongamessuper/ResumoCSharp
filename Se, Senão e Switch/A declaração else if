@@ -1,0 +1,13 @@
+int tempo = 22;
+if (tempo < 10) 
+{
+  Console.WriteLine("Manhã");  //Ele vai ver se tempo é menor que 10 se for verdadeiro vai aparecer manhã se for falso ele vai para o else if
+} 
+else if (tempo < 20)
+{
+  Console.WriteLine("Dia");  //Ele vai ver se tempo é menor que 20 se for verdadeiro ele vai mostrar Dia se for falso ele vai para o else
+} 
+else 
+{
+  Console.WriteLine("Noite");  //Ele vai ver se a condição if e else if são falsas se forem ele vai mostrar Noite se não for não irá
+}

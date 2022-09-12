@@ -1,0 +1,10 @@
+//Os operadores de comparação são usados ​​para comparar dois valores
+
+Exemplo:
+
+== Igual a x == y	
+!= Diferente de x != y	
+> Maior que x x > y	
+< Menor que x < y	
+>= Maior ou igual a	x >= y	
+<= Menor ou igual a x <= y
