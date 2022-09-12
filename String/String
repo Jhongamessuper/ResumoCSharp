@@ -70,3 +70,5 @@ string s = "Sim";
 string pergunta = "Quer isso mesmo";
 string escolha = string.Concat(s ," Espera ", n); 
 txtCaracter.Text = escolha;
+
+
