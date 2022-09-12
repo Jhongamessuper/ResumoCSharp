@@ -1,0 +1,19 @@
+//O for loop é usado quando sabemos quantas vezes queremos executar o comando então é recomendável usar ele do que o while loop a primeira instrução é executada mesmo antes do bloco de código já a segunda é para definir a condição para ser executado e a terceira é executada todas as vezes após a execução do bloco
+
+Exemplo:
+
+//Ele irá ver se int é menor que 5 e se for ele irá contar até 4 cada vez que o bloco de loop é executado e se for falso ele irá parar
+for (int i = 0; i < 5; i++) 
+{
+  Console.WriteLine(i);
+}
+
+//Esse irá contar com números pares de 0 a 10 o i vai ver se é menor ou igual a 10 e se for o bloco irá ser executado se não ele irá parar
+for (int i = 0; i <= 10; i = i + 2) 
+{
+  Console.WriteLine(i);
+}
+
+//foreachloop é usado exclusivamente para percorrer elementos em um array(matrizes)
+
+Exemplo:
