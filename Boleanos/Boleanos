@@ -7,4 +7,28 @@ bool fantasia = false;
 Console.WriteLine(realidade);   //A variável realidade vai receber verdadeiro é vai aparecer na tela
 Console.WriteLine(fantasia);   //A variável fantasia vai receber falso e vai aparecer na tela
 
+//Também pode usar um operador de comparação, como maior que > para descobrir se uma expressão ou uma variável é verdadeira
 
+Exemplo:
+
+int x = 10;
+int y = 9;
+Console.WriteLine(x > y);  //Mostra verdadeiro porque x é maior que y
+Console.WriteLine(10 > 9);  //Mostra verdadeiro porque 10 é maior que 9
+int x = 39;
+int y = 44;
+Console.WriteLine(x > y);  //Mostra falso porque x não é maior que y
+Console.WriteLine(39 > 44);  //Mostra falso porque 39 não é maior que 44
+int x = 32;
+int y = 12;
+Console.WriteLine(y > x);  //Mostra falso porque y não é maior que x
+Console.WriteLine(32 < 12);  //Mostra falso porque 32 não é menor que 12
+
+//Também pode usar o operador == para avaliar uma expressão se é igual
+
+Exemplo:
+
+int x = 10;
+Console.WriteLine(x == 10); //Mostra verdadeiro porque x é igual a 10
+int x = 35;
+Console.WriteLine(x == 29); //Mostra falso porque x não é igual a 29
