@@ -18,3 +18,11 @@ namespace MyApplication
     }
   }
 }
+
+//Para converter explicitamente pode-se usar um dos comandos Convert.To
+
+Exemplo:
+
+Console.WriteLine("Digite sua idade:");  //Digite sua idade e precione enter
+int idade = Convert.ToInt32(Console.ReadLine());  //Quando o usuário digitar a idade o valor que ele colocou vai ser convertida em inteiro e a variável do tipo inteiro chamada idade vai receber o valor que foi especificado
+Console.WriteLine("Sua idade é: " + idade);  //Irá fazer com que o valor seja mostrado na tela

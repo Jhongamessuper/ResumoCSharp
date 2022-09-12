@@ -1,4 +1,4 @@
-//A conversão de tipo é quando você atribui um valor de um tipo de dados a outro tipo.Em C#, existem dois tipos de conversão:
+//A conversão de tipo é quando você atribui um valor de um tipo de dados a outro tipo. Em C#, existem dois tipos de conversão:
 
 Casting implícito (automaticamente) - convertendo um tipo menor em um tamanho de tipo maior
 char-> int-> long-> float->double

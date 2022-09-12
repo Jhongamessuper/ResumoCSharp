@@ -1,0 +1,66 @@
+//Os operadores são usados para usar em uma variável ou valor como soma, subtração, multiplicação e divisão, ele também pode ser usado com uma variável com outra variável ou uma variável com valor ou simplesmente um valor com outro valor
+
+Exemplo:
+
+int numero1, numero2, numero3, numero4; //Variáveis do tipo inteiro
+numero1 = 10;  //Numero1 vai receber valor 10
+numero2 = 20;  //Numero2 vai receber valor 20
+numero3 = numero1 + numero2;  //Numero3 vai receber numero1 somado com o numero2
+numero 4 = numero3 - 10;  //Numero4 vai receber numero3 subtraádo por 10
+
+//Os operadores aritméticos são usados ​​para realizar operações matemáticas comuns
+
+Exemplo:
+
++	Adição Soma dois valores x + y	
+-	Subtração Subtrai um valor de outro	x - y	
+*	Multiplicação Multiplica dois valores x * y	
+/	Divisão	Divide um valor por outro x / y	
+%   Módulo	Retorna o resto da divisão x % y	
+++	Incremento Aumenta o valor de uma variável em 1	x++	
+--	Diminuir Diminui o valor de uma variável em 1 x--
+
+//Os operadores de atribuição são usados para atribuir valores a uma variável e para fazer isso usamos = e para adicionar mais um valor a uma variável usamos um operador antes do = como -= +=
+
+Exemplo:
+
+int n1 = 10;  //Uma variável do tipo inteiro chamada n1 (coloquei n1 para não ficar pondo sempre o nome numero) vai receber o valor 10
+int n1 += 10;  //A mesma variável do tipo inteiro vai receber mais um valor só que não irá substituir e sim somar mais 10
+int n1 -= 2;  //A mesma variável do tipo inteiro vai ter um valor subtraído que será 2
+string nome = "João Carlos";  //A variável nome do tipo string vai receber João Carlos
+float n1 = 19.99F;   //A variável n1 do tipo float vai receber 19.99
+char letra = 'A';  //A variável letra do tipo char vair receber A
+
+Lista de todos os operadores de atribuição:
+
+=	x = 5	x = 5  //Recebe um valor	
++=	x += 3	x = x + 3  //Soma mais um valor	
+-=	x -= 3	x = x - 3	//Subtrai o valor
+*=	x *= 3	x = x * 3	//Multiplica o valor
+/=	x /= 3	x = x / 3	//Divide o valor
+%=	x %= 3	x = x % 3	//Resto da divisão
+&=	x &= 3	x = x & 3	
+|=	x |= 3	x = x | 3	
+^=	x ^= 3	x = x ^ 3	
+>>=	x >>= 3	x = x >> 3	
+<<=	x <<= 3	x = x << 3
+
+//Os operadores de comparação são usados ​​para comparar dois valores
+
+Exemplo:
+
+== Igual a x == y	
+!= Diferente de x != y	
+> Maior que x x > y	
+< Menor que x < y	
+>= Maior ou igual a	x >= y	
+<= Menor ou igual a x <= y
+
+//Os operadores lógicos são usados ​​para determinar a lógica entre variáveis ​​ou valores
+
+Exemplo:
+
+&& 	É Lógico e Retorna verdadeiro se ambas as declarações forem verdadeiras x < 5 &&  x < 10	
+|| 	É Lógico ou Retorna verdadeiro se uma das declarações for verdadeira x < 5 || x < 4	
+!	É Lógico não Inverte o resultado, retorna falso se o resultado for verdadeiro !(x < 5 && x < 10)
+
