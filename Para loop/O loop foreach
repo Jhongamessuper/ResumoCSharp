@@ -1,0 +1,10 @@
+//foreachloop é usado exclusivamente para percorrer elementos em um array(matrizes)
+
+Exemplo:
+
+//
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+foreach (string i in cars) 
+{
+  Console.WriteLine(i);
+}

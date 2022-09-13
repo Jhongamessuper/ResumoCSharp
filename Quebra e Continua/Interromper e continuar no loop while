@@ -1,0 +1,30 @@
+//Também pode usar breake continue em loops while
+
+Exemplo de intervalo:
+
+//A variável i 
+int i = 0;
+while (i < 10) 
+{
+  Console.WriteLine(i);
+  i++;
+  if (i == 4) 
+  {
+    break;
+  }
+}
+
+Continuar Exemplo:
+
+//
+int i = 0;
+while (i < 10) 
+{
+  if (i == 4) 
+  {
+    i++;
+    continue;
+  }
+  Console.WriteLine(i);
+  i++;
+}

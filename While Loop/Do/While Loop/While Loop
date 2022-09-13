@@ -1,0 +1,12 @@
+//O do/while loop é uma variante do while loop ele executa o código e depois que verifica se a condição é verdadeira ele executa mais uma vez ele executa pelo menos uma vez mesmo que seja falso
+
+Exemplo:
+
+//Ele irá pegar a variável i vai ler o bloco de código e vai contabilizar 1 a cada execução do comando começando do zero e vai repetir se a variável i for verdadeiro menor que 5 o loop vai continuar 
+int i = 0;
+do 
+{
+  Console.WriteLine(i);
+  i++;
+}
+while (i < 5);

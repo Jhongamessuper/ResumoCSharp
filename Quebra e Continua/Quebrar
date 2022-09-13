@@ -1,0 +1,13 @@
+//Break é usado para "saltar" de um switch e sair de um loop
+
+Exemplo:
+
+//Ele pega o i e se i for menor que 10 o loop será executado e em cada loop que volta a executar ele contabiliza 1 e quando chegar a 4 o código irá parar e também mostra na tela
+for (int i = 0; i < 10; i++) 
+{
+  if (i == 4) 
+  {
+    break;
+  }
+  Console.WriteLine(i);
+}

@@ -1,0 +1,13 @@
+//O continue interrompe uma iteração (no loop), se ocorrer uma condição especificada, e continua com a próxima iteração no loop.
+
+Exemplo:
+
+//Ele pega o i se i for menor que 10 ele executa o loop e cada vez que repetir ele contabiliza 1 e quando cegar a 4 o comando continue vai pular o 4 e continuar para o próximo número
+for (int i = 0; i < 10; i++) 
+{
+  if (i == 4) 
+  {
+    continue;
+  }
+  Console.WriteLine(i);
+}
